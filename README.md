@@ -33,7 +33,7 @@
 - Trello
 
 ### Макет
-(Тут будет ссылка на фигму)
+https://www.figma.com/design/lDt1McoJl1onasTIlbCxfJ/BoardLocator
 
 ## Структура БД (Набросок)
 
