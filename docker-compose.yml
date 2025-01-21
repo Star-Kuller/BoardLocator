@@ -1,0 +1,6 @@
+﻿services:
+  boardlocator.api:
+    image: boardlocator.api
+    build:
+      context: .
+      dockerfile: BoardLocator.Api/Dockerfile

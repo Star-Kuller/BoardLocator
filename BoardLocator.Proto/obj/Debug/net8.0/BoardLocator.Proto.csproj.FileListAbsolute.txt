@@ -1,0 +1,13 @@
+C:\MyProjects\BoardLocator\BoardLocator.Proto\bin\Debug\net8.0\BoardLocator.Proto.deps.json
+C:\MyProjects\BoardLocator\BoardLocator.Proto\bin\Debug\net8.0\BoardLocator.Proto.dll
+C:\MyProjects\BoardLocator\BoardLocator.Proto\bin\Debug\net8.0\BoardLocator.Proto.pdb
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.csproj.AssemblyReference.cache
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.AssemblyInfoInputs.cache
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.AssemblyInfo.cs
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.csproj.CoreCompileInputs.cache
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.sourcelink.json
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.dll
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\refint\BoardLocator.Proto.dll
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\BoardLocator.Proto.pdb
+C:\MyProjects\BoardLocator\BoardLocator.Proto\obj\Debug\net8.0\ref\BoardLocator.Proto.dll
