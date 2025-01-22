@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoardLocator.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f4a07c3340c28db43626ef9d0dd9dd7ffc56ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec50ac9b9336aa7bc6e24a17e62ee42ed416fd00")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoardLocator.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoardLocator.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

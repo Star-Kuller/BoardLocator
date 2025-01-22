@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /*Colors*/
+  --Background-color: #EFEFEF;
+  --Cards-color: #FFFFFF;
+  --Lines-color: #4D4D4D;
+  --Text-color: #000000;
+  --Buttons-color: #98B3AD;
+  --Textfield-color: #DADADA;
+  --Error-color: #FF6F6F;
+  --Warning-color: #fff86f;
+  --Active-color: #00BA7F;
+}
