@@ -1,13 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  /*Colors*/
+  /*colors*/
   --Background-color: #EFEFEF;
   --Cards-color: #FFFFFF;
   --Lines-color: #4D4D4D;
   --Text-color: #000000;
-  --Buttons-color: #98B3AD;
+  --Button-color: #98B3AD;
+  --Button-hover-color: #9fb4af;
   --Textfield-color: #DADADA;
   --Error-color: #FF6F6F;
   --Warning-color: #fff86f;
   --Active-color: #00BA7F;
+
+  /*borders*/
+  --border1: 1px solid var(--Lines-color);
+  --border2: 2px solid var(--Lines-color);
+  --border3: 3px solid var(--Lines-color);
+}
+
+@font-face {
+  font-family: 'Jura';
+  src: url('assets/fonts/Jura/Jura-VariableFont_wght.ttf') format('ttf');
+}
+
+* {
+  font-family: 'Jura', sans-serif;
+  color: var(--Text-color);
+}
+
+.card {
+  background-color: var(--Cards-color);
+  border: var(--border1);
+}
+
+.border2 {
+  border: var(--border2);
+}
+
+.border3 {
+  border: var(--border3);
+}
+
+.textfield {
+  background-color: var(--Textfield-color);
+  border: var(--border1);
+  caret-color: var(--Active-color);
+}
+
+.input {
+  background-color: var(--Textfield-color);
+  caret-color: var(--Active-color);
+}
+
+.button {
+  background-color: var(--Button-color);
+}
+
+.button:hover {
+  background-color: var(--Button-hover-color);
 }
