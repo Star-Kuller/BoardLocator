@@ -29,7 +29,6 @@
 - Angular
 - gRPC-web
 - PWA
-- bootstrap
 #### Прочее:
 - Figma
 - Trello
