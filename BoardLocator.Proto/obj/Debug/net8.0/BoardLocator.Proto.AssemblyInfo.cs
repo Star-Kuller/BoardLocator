@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoardLocator.Proto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f71827f9b82c25956519baebec524b557475c29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bc69b658bc0369ede6b893fa423daf650d56a47")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoardLocator.Proto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoardLocator.Proto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

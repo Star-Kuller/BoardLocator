@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {GrpcServiceBase} from "./grpc.service.base";
-import {TokenModel} from "../Storage/token-model.service";
+import {TokenModel} from "../Storage/token.model.service";
 import {AuthClient, ServiceError} from "../../../generated/auth_pb_service";
 import {LoginRequest, RegisterRequest, TokenResponse} from "../../../generated/auth_pb";
 import {grpc} from "@improbable-eng/grpc-web";
