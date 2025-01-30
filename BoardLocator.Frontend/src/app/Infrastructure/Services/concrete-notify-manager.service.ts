@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import {BehaviorSubject, Observable} from 'rxjs';
-import {NotifyMessage, NotifyMessageType} from "../DTOs/NotifyMessage";
-import {NotifyService} from "../Interfaces/NotifyService";
+import {NotifyMessage, NotifyMessageType} from "../DTOs/notify-message";
+import {NotifyManager} from "../Interfaces/notify-manager.interface";
 
 @Injectable()
-export class ConcreteNotifyService extends NotifyService{
+export class ConcreteNotifyManager extends NotifyManager{
   public get messages$(): Observable<NotifyMessage[]> {
     return this._subject.asObservable();
   }

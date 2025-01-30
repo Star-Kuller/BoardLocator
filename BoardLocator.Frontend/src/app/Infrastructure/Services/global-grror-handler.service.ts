@@ -1,12 +1,12 @@
 import {ErrorHandler, Injectable, NgZone} from '@angular/core';
-import {NotifyService} from "../Interfaces/NotifyService";
-import {RpcError} from "../Errors/RpcError";
+import {NotifyManager} from "../Interfaces/notify-manager.interface";
+import {RpcError} from "../Errors/rpc.error";
 import {grpc} from "@improbable-eng/grpc-web";
 import Code = grpc.Code;
 
 @Injectable()
 export class GlobalErrorHandler implements ErrorHandler {
-  constructor(private _notifyMassages: NotifyService, private ngZone: NgZone) {}
+  constructor(private _notifyMassages: NotifyManager, private ngZone: NgZone) {}
 
   handleError(error: any) {
     this.ngZone.run(() => {

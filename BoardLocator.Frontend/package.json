@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "generate:proto": "protoc --plugin=protoc-gen-ts_proto=\".\\node_modules\\.bin\\protoc-gen-ts_proto.cmd\" --ts_proto_out=./src/generated --proto_path=./src/protosgreet.proto"
+    "generate:proto": "protoc --plugin=\"./node_modules/.bin/protoc-gen-ts.cmd\" --proto_path=\"./src/protos\" --js_out=\"import_style=commonjs,binary:./src/generated\" --ts_out=\"service=grpc-web:./src/generated\" greet.proto auth.proto"
   },
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "ts-proto": "^2.6.1",
+    "ts-protoc-gen": "^0.15.0",
     "typescript": "~5.3.2"
   }
 }

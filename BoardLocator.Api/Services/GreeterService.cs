@@ -1,5 +1,4 @@
 using Grpc.Core;
-using PersonalBlogGRpc;
 
 namespace BoardLocator.Api.Services;
 

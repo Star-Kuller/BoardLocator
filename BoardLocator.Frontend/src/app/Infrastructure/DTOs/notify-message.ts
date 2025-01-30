@@ -1,5 +1,9 @@
 export class NotifyMessage {
-  constructor(private _id : number, private _text : string, private _type : NotifyMessageType) {}
+  constructor(
+    private readonly _id : number,
+    private readonly _text : string,
+    private readonly _type : NotifyMessageType
+  ){}
 
   public get id() : number { return this._id; }
   public get text() : string { return this._text; }
