@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { grpc } from '@improbable-eng/grpc-web';
 import {environment} from "../../../environments/environment";
-import {TokenModel} from "../Storage/token-model.service";
+import {TokenModel} from "../Storage/token.model.service";
 
 @Injectable({
   providedIn: 'root',
@@ -14,7 +14,9 @@ export class GrpcServiceBase {
 
   protected get defaultMetadata() : grpc.Metadata {
     let metadata = new grpc.Metadata;
-    metadata.headersMap["Authorization"] = [`Bearer ${this.tokenManager.token}`];
+    let token = this.tokenManager.token;
+    if(token)
+      metadata.headersMap["Authorization"] = [`Bearer ${token}`];
     return metadata;
   }
 }
